@@ -7,7 +7,7 @@ First create the anaconda environment with python 3.10
 conda create -n env_name python=3.10
 ```
 
-Then, activate to the environment we created 
+Then, activate to the environment created 
 
 ```bash
 conda activate env_name
@@ -25,17 +25,15 @@ The torch packages installed by default, `torch 2.7.1` and `torchvision 0.22.1`,
 pip install torch==2.5.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-
-
 To use in jupyter notebooks with the packages installed in the environment, it is necessary to create a kernel. For this, install `ipykernel`
 
 ```bash
 conda install ipykernel
 ```
-And register the anaconda environment as a kernel
+And register the anaconda environment `env_name` as a kernel
 
 ```bash
-python -m ipykernel install --user --name=kernel_name --display-name "Kernel Name"
+python -m ipykernel install --user --name=env_name --display-name "Kernel Name"
 ```
 
 `--name` is the internal identifier
