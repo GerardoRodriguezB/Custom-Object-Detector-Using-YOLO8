@@ -31,5 +31,6 @@ python -m ipykernel install --user --name=kernel_name --display-name "Kernel Nam
 ```
 
 `--name` is the internal identifier
+
 `--display-name` is the name you will see in jupyter
 
