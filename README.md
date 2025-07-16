@@ -10,9 +10,9 @@ conda create -n env_name python=3.10
 
 Then we activate to the environment we created 
 
-```bash
+<pre>```bash
 conda activate env_name
-```
+```</pre>
 
 We install specific versions of some packages to avoid compatibility problems
 
