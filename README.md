@@ -1,6 +1,7 @@
 # Custom-Object-Detector-Using-YOLO8
 In this repository I explain step by step how to create an anaconda environment with the versions o packages necessary to train a custom object detection using YOLO 8
 
+
 First we create the anaconda environment with python 3.10
 
 conda create -n env_name python=3.10
