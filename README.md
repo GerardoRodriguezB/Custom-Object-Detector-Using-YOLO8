@@ -4,7 +4,9 @@ In this repository I explain step by step how to create an anaconda environment 
 
 First we create the anaconda environment with python 3.10
 
+```bash
 conda create -n env_name python=3.10
+```
 
 Then we activate to the environment we created 
 
