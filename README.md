@@ -24,5 +24,12 @@ To use in the jupyter notebooks the packages we installed in our environment, we
 ```bash
 conda install ipykernel
 ```
+And register the environment as a kernel
 
+```bash
+python -m ipykernel install --user --name=kernel_name --display-name "Kernel Name"
+```
+
+`--name` is the internal identifier
+`--display-name` is the name you will see in jupyter
 
